@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" id="Eib-KH-SQz">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="initialdesign2" translatesAutoresizingMaskIntoConstraints="NO" id="RD8-uH-2Kr">
+                                        <rect key="frame" x="-12" y="584" width="405" height="268"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="268" id="7Cx-Cz-B2o"/>
+                                        </constraints>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="pyramid" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="GL5-bR-v84">
+                                        <rect key="frame" x="167.66666666666666" y="386" width="58" height="81"/>
+                                        <color key="tintColor" red="0.079134287309999995" green="0.0" blue="0.4189553802" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="80.670000000000002" id="g9X-ds-JEK"/>
+                                            <constraint firstAttribute="width" constant="58" id="okF-Vz-b7V"/>
+                                        </constraints>
+                                    </imageView>
+                                </subviews>
+                                <viewLayoutGuide key="safeArea" id="gY5-iJ-jkV"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="RD8-uH-2Kr" secondAttribute="bottom" id="5v0-UJ-Xrz"/>
+                                    <constraint firstItem="RD8-uH-2Kr" firstAttribute="trailing" secondItem="gY5-iJ-jkV" secondAttribute="trailing" id="8ME-45-GZL"/>
+                                    <constraint firstItem="GL5-bR-v84" firstAttribute="centerX" secondItem="Eib-KH-SQz" secondAttribute="centerX" id="Apd-It-dQg"/>
+                                    <constraint firstItem="RD8-uH-2Kr" firstAttribute="leading" secondItem="gY5-iJ-jkV" secondAttribute="leading" constant="-10" id="Axh-5Z-Mvn"/>
+                                    <constraint firstItem="GL5-bR-v84" firstAttribute="centerY" secondItem="Eib-KH-SQz" secondAttribute="centerY" id="ZWv-QK-fFN"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="53" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="initialdesign2" width="622" height="436"/>
+        <image name="pyramid" catalog="system" width="128" height="125"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
